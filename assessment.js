@@ -15,7 +15,7 @@
         }
     }
 
-    assessmentButton.onclick = () => {
+    assessmentButton.onclick = () => {　
         const userName = userNameInput.value;
         if (userName.length === 0) { // 名前が空の時は処理を終了する
             return;
@@ -61,7 +61,7 @@
         '{userName}のいいところは用心深さです。{userName}の洞察に、多くの人が助けられます。',
         '{userName}のいいところは見た目です。内側から溢れ出る{userName}の良さに皆が気を惹かれます。',
         '{userName}のいいところは決断力です。{userName}がする決断にいつも助けられる人がいます。',
-        '{userName}のいいところは思いやりです。{userName}に気をかけてもらった多くの人が感謝しています。',
+        '{userName}のいいところは思いやりです。　{userName}に気をかけてもらった多くの人が感謝しています。',
         '{userName}のいいところは感受性です。{userName}が感じたことに皆が共感し、わかりあうことができます。',
         '{userName}のいいところは節度です。強引すぎない{userName}の考えに皆が感謝しています。',
         '{userName}のいいところは好奇心です。新しいことに向かっていく{userName}の心構えが多くの人に魅力的に映ります。',
